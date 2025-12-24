@@ -1,298 +1,211 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Seven-Dish Christmas Dinner — 24 Dec 2025</title>
+  <title>Seven-Dish Christmas Dinner — 24 December 2025</title>
+  <meta name="description" content="Seven-Dish Christmas Dinner (24 December 2025). A Belgian and a Northeastern Brazilian walk into a seven-course dinner with two Dutch sisters—international diplomacy, one plate at a time." />
   <style>
     :root{
-      --bg:#0b0f14; --panel:#0f1522; --muted:#a5b5c7; --text:#eaf2fb; --line:#1c2740; --accent:#6fb3ff;
-      --card:#101a2b; --chip:#16243a; --chipb:#132235;
+      --bg:#0b0f14;
+      --panel:#0f1522;
+      --card:#101a2b;
+      --text:#eaf2fb;
+      --muted:#a5b5c7;
+      --line:#1c2740;
+      --accent:#6fb3ff;
     }
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    header{padding:20px 16px;background:linear-gradient(180deg,#0b0f14,#0d1420);border-bottom:1px solid var(--line)}
-    .wrap{max-width:1200px;margin:0 auto}
-    h1{margin:0 0 6px 0;font-size:22px}
-    .sub{color:var(--muted)}
-
-    main{padding:18px 16px}
-    .grid{max-width:1200px;margin:0 auto;display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.35);overflow:hidden}
-    .card h2{margin:0;padding:12px 14px;background:#121c2c;border-bottom:1px solid var(--line);font-size:16px}
-
-    .item{padding:12px 14px;border-top:1px solid var(--line)}
-    .item:first-child{border-top:0}
-    .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-    .dt{font-weight:700;white-space:nowrap}
-    .ev{font-weight:700}
-    .loc{color:#cfe4ff}
-    .note{color:var(--muted)}
-    .pill{display:inline-block;background:var(--chip);border:1px solid var(--line);padding:2px 8px;border-radius:999px;font-size:12px}
-    .pill2{display:inline-block;background:var(--chipb);border:1px solid var(--line);padding:2px 8px;border-radius:999px;font-size:12px}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 600px at 20% 0%, #0f1a2b 0%, var(--bg) 55%) fixed;
+      color:var(--text);
+      font:15px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+    header{
+      padding:28px 0 18px;
+      border-bottom:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(15,26,43,.55), rgba(11,15,20,0));
+    }
+    h1{margin:0 0 6px;font-size:24px;letter-spacing:.2px}
+    .meta{color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+    .chip{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:4px 10px;border-radius:999px;
+      border:1px solid var(--line);
+      background: rgba(16,26,43,.55);
+      font-size:12px;
+      color:var(--muted);
+    }
+    .lead{
+      margin:14px 0 0;
+      color:var(--muted);
+      max-width:900px;
+    }
+    main{padding:22px 0 36px}
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap:14px;
+      margin-top:18px;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(16,26,43,.92), rgba(16,26,43,.78));
+      border:1px solid var(--line);
+      border-radius:16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.35);
+      overflow:hidden;
+    }
+    .cardHead{
+      padding:12px 14px;
+      border-bottom:1px solid var(--line);
+      background: rgba(15,21,34,.9);
+      display:flex;justify-content:space-between;align-items:center;gap:12px;
+    }
+    .dishNo{
+      font-weight:700;
+      color: var(--text);
+      font-size:13px;
+      letter-spacing:.2px;
+    }
+    .badge{
+      font-size:12px;
+      color: var(--muted);
+      border:1px solid var(--line);
+      background: rgba(11,15,20,.65);
+      border-radius:999px;
+      padding:3px 10px;
+      white-space:nowrap;
+    }
+    .cardBody{padding:14px}
+    .dishName{margin:0 0 10px;font-size:16px;line-height:1.25}
+    .note{
+      margin:0;
+      color: var(--muted);
+      white-space: pre-wrap; /* preserves your line breaks cleanly */
+    }
+    footer{
+      padding:18px 0 26px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:12px;
+    }
+    .accent{color:var(--accent)}
   </style>
 </head>
+
 <body>
   <header>
     <div class="wrap">
       <h1>Seven-Dish Christmas Dinner</h1>
-      <div class="sub">24 December 2025 • Timezone: Europe/Amsterdam • Seven courses, one evening</div>
-      <div class="sub" style="margin-top:8px">
+      <div class="meta">
+        <span class="chip"><span class="accent">Date</span> 24 December 2025</span>
+        <span class="chip"><span class="accent">Format</span> Seven courses</span>
+        <span class="chip"><span class="accent">Mode</span> Read-only (GitHub Pages)</span>
+      </div>
+      <p class="lead">
         A Belgian and a Northeastern Brazilian walk into a seven-course dinner with two Dutch sisters—what could possibly go wrong?<br/>
         This is exactly how international diplomacy works—one plate at a time.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="grid">
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 1</div>
+            <div class="badge">Welcome</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Panettone met Koffie &amp; Thee alla Gezelligheid</h2>
+            <p class="note">Pistachio panettone from Sicily meets Christmas bread from the Roman bakery in Elst—served with coffee, tea, and zero respect for borders.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 2</div>
+            <div class="badge">After-walk</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">After-Walk Fraises au Chocolat de Belgique</h2>
+            <p class="note">Belgian strawberries in Dutch chocolate, paired with demi-sec Champagne de Castellane—because the walk was long, and discipline has limits.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 3</div>
+            <div class="badge">Game break</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Pequeño Recuerdo de España</h2>
+            <p class="note">During this course, we play Take 5—the ladies are the favorites, and the gentlemen are playing for dignity alone. A small salute to Spain—olives
+filled with anchovies and crisp chips, simple, salty, and made for sharing. Served with a selection of non-alcoholic spritz and non-alcoholic
+cava—Spanish spirit, clear heads, and zero excuses.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 4</div>
+            <div class="badge">Sea + elegance</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Décadence Nordestine à la Thermidor</h2>
+            <p class="note">Lobster in classic Thermidor sauce, green asparagus wrapped with king crab tapenade—Northeastern abundance dressed in French elegance.
+Paired with Anjou Blanc La Grande Croix—a white that bridges sea and land, gently preparing the palate for what follows next.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 5</div>
+            <div class="badge">Passage</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Passage Terre–Mer, Brie à la Truffe</h2>
+            <p class="note">Truffled soft brie with bread, still paired with Anjou Blanc La Grande Croix—the official crossing where seafood shakes hands
+with the land and nobody notices the border.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 6</div>
+            <div class="badge">Wild Tuscany</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Wild Stufato alla Toscana</h2>
+            <p class="note">Wild pasta served with slowly cooked wild boar and deer—hunted by tradition, tamed by patience, and finished without mercy. Served with Syrah À Deux Pas (2018),
+grown just two steps away from France’s most expensive Syrah vineyards—proof that proximity can be destiny.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="cardHead">
+            <div class="dishNo">Dish 7</div>
+            <div class="badge">Finale</div>
+          </div>
+          <div class="cardBody">
+            <h2 class="dishName">Tiramisù Classico</h2>
+            <p class="note">The proper Italian ending—classic tiramisù served with English tea, because even traditions enjoy a polite conversation.</p>
+          </div>
+        </section>
+
       </div>
     </div>
-  </header>
-
-  <main>
-    <div class="grid">
-
-      <section class="card">
-        <h2>Dish 1 • Welcome</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Opening</span><span>•</span><span class="ev">Panettone met Koffie & Thee alla Gezelligheid</span></div>
-          <div class="note">Pistachio panettone from Sicily meets Christmas bread from the Roman bakery in Elst—served with coffee, tea, and zero respect for borders.</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 2 • Sweet Relief</h2>
-        <div class="item">
-          <div class="row"><span class="dt">After Walk</span><span>•</span><span class="ev">Fraises au Chocolat de Belgique</span></div>
-          <div class="note">Belgian strawberries in Dutch chocolate, paired with demi-sec Champagne de Castellane.</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 3 • Game & Spain</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Table Game</span><span>•</span><span class="ev">Pequeño Recuerdo de España</span></div>
-          <div class="note">Olives with anchovies, crisp chips, Take 5 on the table, non-alcoholic spritz and cava.</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 4 • Sea</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Main Sea</span><span>•</span><span class="ev">Décadence Nordestine à la Thermidor</span></div>
-          <div class="note">Lobster Thermidor, asparagus, king crab tapenade. Paired with Anjou Blanc “La Grande Croix”.</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 5 • Passage</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Transition</span><span>•</span><span class="ev">Brie à la Truffe</span></div>
-          <div class="note">The crossing from sea to land—border officially removed.</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 6 • Land</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Main Land</span><span>•</span><span class="ev">Wild Stufato alla Toscana</span></div>
-          <div class="note">Wild boar and deer pasta, finished without mercy. Paired with Syrah “À Deux Pas” (2018).</div>
-        </div>
-      </section>
-
-      <section class="card">
-        <h2>Dish 7 • Finale</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Dessert</span><span>•</span><span class="ev">Tiramisù Classico</span></div>
-          <div class="note">Classic Italian ending with English tea.</div>
-        </div>
-      </section>
-
-    </div>
   </main>
-</body>
-</html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Seven-Dish Christmas Dinner</title>
-  <style>
-    :root{
-      --bg:#0b0f14; --panel:#0f1522; --muted:#a5b5c7; --text:#eaf2fb; --line:#1c2740; --accent:#6fb3ff;
-      --card:#101a2b; --chip:#16243a; --chipb:#132235;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    header{padding:20px 16px;background:linear-gradient(180deg,#0b0f14,#0d1420);border-bottom:1px solid var(--line)}
-    .wrap{max-width:1200px;margin:0 auto}
-    h1{margin:0 0 6px 0;font-size:22px}
-    .sub{color:var(--muted)}
 
-    main{padding:18px 16px}
-    .grid{max-width:1200px;margin:0 auto;display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.35);overflow:hidden}
-    .card h2{margin:0;padding:12px 14px;background:#121c2c;border-bottom:1px solid var(--line);font-size:16px}
-
-    .item{padding:12px 14px;border-top:1px solid var(--line)}
-    .item:first-child{border-top:0}
-    .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-    .dt{font-weight:700;white-space:nowrap}
-    .ev{font-weight:700}
-    .loc{color:#cfe4ff}
-    .note{color:var(--muted)}
-    .pill{display:inline-block;background:var(--chip);border:1px solid var(--line);padding:2px 8px;border-radius:999px;font-size:12px}
-    .pill2{display:inline-block;background:var(--chipb);border:1px solid var(--line);padding:2px 8px;border-radius:999px;font-size:12px}
-  </style>
-</head>
-<body>
-  <header>
+  <footer>
     <div class="wrap">
-      <h1>Seven-Dish Christmas Dinner</h1>
-      <div class="sub">Timezone: Europe/Amsterdam • Read‑only • **All information displayed** • Grouped into 3‑day squares</div>
+      Tip: to update dishes later, edit <span class="accent">index.html</span> and push to <span class="accent">main</span>. GitHub Pages will rebuild automatically.
     </div>
-  </header>
-
-  <main>
-    <div class="grid">
-
-      <!-- Card 1: Oct 14–16 -->
-      <section class="card">
-        <h2>Tue 14 → Thu 16 Oct 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Tue 14 Oct 14:20</span><span>•</span><span class="ev">Arrival in Amsterdam</span></div>
-          <div class="row"><span class="pill">People:</span> Willis</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Amsterdam</span></div>
-          <div class="note">Willis arrives in Amsterdam.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Wed 15 Oct 17:00</span><span>•</span><span class="ev">Meeting</span></div>
-          <div class="row"><span class="pill">People:</span> Willis, Zelucio</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Amsterdam</span></div>
-          <div class="note">Zelucio meets Willis in Amsterdam.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Wed 15 Oct 18:30</span><span>•</span><span class="ev">Pickup Floris</span></div>
-          <div class="row"><span class="pill">People:</span> Willis, Zelucio, Floris ELST</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Wageningen</span></div>
-          <div class="note">Travel together to pick up Floris.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Wed 15 → Thu 16 Oct (all‑day)</span><span>•</span><span class="ev">Stay: Elst</span></div>
-          <div class="row"><span class="pill">People:</span> <strong>Floris ELST</strong>, Zelucio</div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Elst</strong></div>
-          <div class="note"><strong>Floris’s base stay in Elst begins (continues through Sat 25 Oct), replaced by hotel stays when applicable.</strong></div>
-        </div>
-      </section>
-
-      <!-- Card 2: Oct 17–19 -->
-      <section class="card">
-        <h2>Fri 17 → Sun 19 Oct 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 17 → Sun 19 Oct (all‑day)</span><span>•</span><span class="ev">Stay: Elst</span></div>
-          <div class="row"><span class="pill">People:</span> <strong>Floris ELST</strong>, Zelucio</div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Elst</strong></div>
-          <div class="note">Floris’s base stay in Elst .</div>
-        </div>
-      </section>
-
-      <!-- Card 3: Oct 20–22 -->
-      <section class="card">
-        <h2>Mon 20 → Wed 22 Oct 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Mon 20 → Wed 22 Oct (all‑day)</span><span>•</span><span class="ev">Stay: Elst</span></div>
-          <div class="row"><span class="pill">People:</span> <strong>Floris ELST</strong>, Zelucio</div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Elst</strong></div>
-          <div class="note">Floris’s Base stay continues until hotel meet‑up day.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Wed 22 Oct (full day)</span><span>•</span><span class="ev">Hotel stay & group meet‑up</span></div>
-          <div class="row"><span class="pill">People:</span> Valeria, Carlos, Zelucio, <strong>Floris ELST</strong>, Maria, Daniela, Zeno</div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Renaissance Amsterdam Hotel (Amsterdam)</strong></div>
-          <div class="note">Group meets and stays overnight (22 → 23 Oct).
-          <div class="note"><strong>Overrides base:</strong> replaces <em>Floris ELST</em> Floris’s base stay (Elst) for this date.</div> This replaces Floris’s Elst base on this day.</div>
-        </div>
-      </section>
-
-      <!-- Card 4: Oct 23–25 -->
-      <section class="card">
-        <h2>Thu 23 → Sat 25 Oct 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Thu 23 → Sun 26 Oct (all‑day)</span><span>•</span><span class="ev">Hotel stay</span></div>
-          <div class="row"><span class="pill">People:</span> Valeria, Carlos, Maria, Daniela, Zeno, <strong>Floris ELST</strong></div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Van der Valk Hotel Nijmegen – Lent (Nijmegen)</strong></div>
-          <div class="note">Nijmegen hotel stay for the group.
-          <div class="note"><strong>Overrides base:</strong> replaces <em>Floris ELST</em> base stay (Elst) for <strong>Oct 23–25</strong>.</div></div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 24 Oct 12:15</span><span>•</span><span class="ev">Photoshoot pickup</span></div>
-          <div class="row"><span class="pill">People:</span> <strong>Floris ELST</strong>, Maria, Daniela</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Elst</span></div>
-          <div class="note">Johan picks them up for photoshoot.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 24 Oct 14:30 – 15:15</span><span>•</span><span class="ev">Legal ceremony</span></div>
-          <div class="row"><span class="pill">People:</span> Valeria, Carlos, Willis, Karel, Zeno (+ photoshoot group)</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Elst Town Hall</span></div>
-          <div class="note">Marriage legal ceremony; filmed by Karel or Daniela for Guida.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 24 Oct 15:15 – 15:30</span><span>•</span><span class="ev">Photos</span></div>
-          <div class="row"><span class="pill">People:</span> All legal ceremony members</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Elst Town Hall (front)</span></div>
-          <div class="note">Group photos after ceremony.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 24 Oct 16:00 – 18:30</span><span>•</span><span class="ev">Welcome to the marriage party</span></div>
-          <div class="row"><span class="pill">People:</span> All</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">De Arend Wisssen</span></div>
-          <div class="note">Congratulations / drinks & bites.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Fri 24 Oct 18:30 – 23:00</span><span>•</span><span class="ev">Walking dinner (inclusive live music)</span></div>
-          <div class="row"><span class="pill">People:</span> All</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">De Arend Wisssen</span></div>
-          <div class="note">Main celebration.</div>
-        </div>
-        <div class="item">
-          <div class="row"><span class="dt">Sat 25 Oct (all‑day)</span><span>•</span><span class="ev">Stay: Elst — last day</span></div>
-          <div class="row"><span class="pill">People:</span> <strong>Floris ELST</strong>, Zelucio</div>
-          <div class="row"><span class="pill2">Location:</span> <strong class="loc">Elst</strong></div>
-          <div class="note">Base stay last day.
-          <div class="note"><strong>On this date:</strong> For <em>Floris ELST</em>, hotel stay in Nijmegen replaces the Elst base.</div></div>
-        </div>
-      </section>
-
-      <!-- Card 5: Oct 26–28 -->
-      <section class="card">
-        <h2>Sun 26 → Tue 28 Oct 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Sun 26 Oct (morning)</span><span>•</span><span class="ev">Check‑out</span></div>
-          <div class="row"><span class="pill">People:</span> Valeria, Carlos, Maria, Daniela, Zeno, <strong>Floris ELST</strong></div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Van der Valk Hotel Nijmegen – Lent</span></div>
-          <div class="note">End of hotel stay.</div>
-        </div>
-      </section>
-
-      <!-- Card 6: Oct 29–31 -->
-      <section class="card">
-        <h2>Wed 29 → Fri 31 Oct 2025</h2>
-        <div class="item">
-          <div class="note">No specific events provided for this 3‑day window.</div>
-        </div>
-      </section>
-
-      <!-- Card 7: Nov 1–2 -->
-      <section class="card">
-        <h2>Sat 1 → Sun 2 Nov 2025</h2>
-        <div class="item">
-          <div class="row"><span class="dt">Sun 2 Nov (time TBC)</span><span>•</span><span class="ev">Return flight to Fortaleza</span></div>
-          <div class="row"><span class="pill">People:</span> Willis</div>
-          <div class="row"><span class="pill2">Location:</span> <span class="loc">Amsterdam Airport Schiphol</span></div>
-          <div class="note">Departure time to be confirmed.</div>
-        </div>
-      </section>
-
-    </div>
-  </main>
+  </footer>
 </body>
 </html>
->>>>>>> 7644f5b (Rename page for seven-dish Christmas dinner)
